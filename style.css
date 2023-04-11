@@ -1,8 +1,19 @@
 header {
+    position: absolute;
+    top:0px;
+    right:0px;
+    left:0px;
+    
     text-align: center;
-    box-shadow: 0px 3px 24px 13px #FFB23E;
-    background-color: beige;
-    margin: 20px;
+    background-color:  #FFB23E;
+    margin-bottom: 5px;
+    padding: 5px;
+    border: 3px solid blue;
+
+}
+
+body {
+    padding-top: 70px;
 }
 
 h2 {
@@ -27,7 +38,7 @@ ul {
 }
 
 .question-card {
-
+    
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     box-shadow: 0px 3px 24px 13px #FFB23E;
